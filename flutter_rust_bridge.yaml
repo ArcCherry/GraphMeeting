@@ -1,0 +1,4 @@
+# Flutter Rust Bridge 配置 - 新版语法
+rust_input: crate
+rust_root: rust/
+dart_output: lib/bridge

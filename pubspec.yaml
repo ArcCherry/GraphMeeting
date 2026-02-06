@@ -1,0 +1,59 @@
+name: graphmeeting
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # 网络
+  web_socket_channel: ^2.4.0
+  dio: ^5.4.0
+  
+  # 存储
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # SQLite (全平台支持)
+  sqflite: ^2.3.2
+  sqflite_common_ffi: ^2.3.2  # 桌面端
+  sqlite3_flutter_libs: ^0.5.20  # 移动端原生库
+  
+  # Web 存储回退
+  idb_shim: ^2.3.2
+  sqflite_common_ffi_web: ^0.4.2+3
+  
+  # 图像处理
+  image: ^4.1.3
+  cached_network_image: ^3.3.1
+  
+  # 文件选择
+  file_picker: ^6.1.1
+  image_picker: ^1.0.7
+  
+
+  
+  # 状态管理
+  flutter_riverpod: ^2.4.9
+  
+  # 其他
+  uuid: ^4.2.2
+  path_provider: ^2.1.1
+  permission_handler: ^11.1.0
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.8
+  freezed: ^2.4.6
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
